@@ -157,13 +157,123 @@
                         }
                     ],
                     quiz: [
-                        { q: "I had my hair ______.", options: ["cut", "cutting", "to cut"], ans: "cut", hint: "受詞 hair 與動作 cut 是被動關係 (被剪)。" },
-                        { q: "He had his car ______ yesterday.", options: ["fix", "fixed", "fixing"], ans: "fixed", hint: "受詞 car 與動作 fix 是被動關係 (被修理)。" },
-                        { q: "She had her nails ______.", options: ["paint", "painted", "painting"], ans: "painted", hint: "指甲是被彩繪的，需用 p.p.。" }
+                        // 1-5
+                        { q: "I had my hair ______ yesterday.", options: ["cut", "cutting", "to cut"], ans: "cut", hint: "頭髮是「被剪」的 (p.p.)。" },
+                        { q: "He had his car ______ last week.", options: ["fix", "fixed", "fixing"], ans: "fixed", hint: "車子是「被修理」的 (p.p.)。" },
+                        { q: "We had the room ______ pink.", options: ["paint", "painted", "painting"], ans: "painted", hint: "房間是「被油漆」的 (p.p.)。" },
+                        { q: "She had her nails ______ at the salon.", options: ["do", "did", "done"], ans: "done", hint: "指甲是「被做」的，do 的 p.p.。" },
+                        { q: "Did you have your watch ______?", options: ["repair", "repaired", "repairing"], ans: "repaired", hint: "手錶是「被修理」的 (p.p.)。" },
+                        // 6-10
+                        { q: "Mom had the house ______.", options: ["clean", "cleaned", "cleaning"], ans: "cleaned", hint: "房子是「被打掃」的 (p.p.)。" },
+                        { q: "I had my car ______ at the station.", options: ["wash", "washed", "washing"], ans: "washed", hint: "車子是「被洗」的 (p.p.)。" },
+                        { q: "He had his eyes ______ by the doctor.", options: ["check", "checked", "checking"], ans: "checked", hint: "眼睛是「被檢查」的 (p.p.)。" },
+                        { q: "They had the window ______.", options: ["break", "broke", "broken"], ans: "broken", hint: "窗戶是「被打破」的 (p.p.)。" },
+                        { q: "You should have your teeth ______.", options: ["check", "checked", "checking"], ans: "checked", hint: "牙齒是「被檢查」的 (p.p.)。" },
+                        // 11-15
+                        { q: "We had the pizza ______ to our house.", options: ["deliver", "delivered", "delivering"], ans: "delivered", hint: "披薩是「被外送」的 (p.p.)。" },
+                        { q: "She had the package ______ by air mail.", options: ["send", "sent", "sending"], ans: "sent", hint: "包裹是「被寄送」的 (p.p.)。" },
+                        { q: "He had a suit ______ for the wedding.", options: ["make", "made", "making"], ans: "made", hint: "西裝是「被製作」的 (p.p.)。" },
+                        { q: "I had the letter ______ in English.", options: ["write", "wrote", "written"], ans: "written", hint: "信是「被寫」的 (p.p.)。" },
+                        { q: "They had the photos ______.", options: ["take", "took", "taken"], ans: "taken", hint: "照片是「被拍」的 (p.p.)。" },
+                        // 16-20
+                        { q: "Poor Tom had his bike ______.", options: ["steal", "stole", "stolen"], ans: "stolen", hint: "腳踏車是「被偷」的 (p.p.)。" },
+                        { q: "We had the door ______ at night.", options: ["lock", "locked", "locking"], ans: "locked", hint: "門是「被鎖」的 (p.p.)。" },
+                        { q: "She had her dog ______ by her neighbor.", options: ["feed", "fed", "feeding"], ans: "fed", hint: "狗是「被餵」的 (p.p.)。" },
+                        { q: "He had his wallet ______ on the bus.", options: ["steal", "stole", "stolen"], ans: "stolen", hint: "錢包是「被偷」的 (p.p.)。" },
+                        { q: "I had the computer ______.", options: ["fix", "fixed", "fixing"], ans: "fixed", hint: "電腦是「被修理」的 (p.p.)。" },
+                        // 21-25
+                        { q: "We had the work ______ by 5 PM.", options: ["finish", "finished", "finishing"], ans: "finished", hint: "工作是「被完成」的 (p.p.)。" },
+                        { q: "He had the paper ______ by his father.", options: ["sign", "signed", "signing"], ans: "signed", hint: "文件是「被簽署」的 (p.p.)。" },
+                        { q: "They had the machine ______.", options: ["test", "tested", "testing"], ans: "tested", hint: "機器是「被測試」的 (p.p.)。" },
+                        { q: "She had the dress ______ for the party.", options: ["buy", "bought", "buying"], ans: "bought", hint: "洋裝是「被買」的 (p.p.)。" },
+                        { q: "I will have the problem ______.", options: ["solve", "solved", "solving"], ans: "solved", hint: "問題是「被解決」的 (p.p.)。" },
+                        // 26-30
+                        { q: "Dad had the dinner ______.", options: ["cook", "cooked", "cooking"], ans: "cooked", hint: "晚餐是「被煮」的 (p.p.)。" },
+                        { q: "We had some flowers ______ in the garden.", options: ["plant", "planted", "planting"], ans: "planted", hint: "花是「被種植」的 (p.p.)。" },
+                        { q: "The teacher had the tests ______.", options: ["print", "printed", "printing"], ans: "printed", hint: "考卷是「被列印」的 (p.p.)。" },
+                        { q: "He had his shoes ______.", options: ["clean", "cleaned", "cleaning"], ans: "cleaned", hint: "鞋子是「被擦乾淨」的 (p.p.)。" },
+                        { q: "I had my homework ______.", options: ["check", "checked", "checking"], ans: "checked", hint: "作業是「被檢查」的 (p.p.)。" },
+                        // 31-35 (New)
+                        { q: "I had the floor ______ yesterday.", options: ["mop", "mopped", "mopping"], ans: "mopped", hint: "地板是「被拖」的 (p.p.)。" },
+                        { q: "She had her bag ______ by a thief.", options: ["take", "taken", "taking"], ans: "taken", hint: "包包是「被拿走」的 (p.p.)。" },
+                        { q: "We had the wall ______ blue.", options: ["paint", "painted", "painting"], ans: "painted", hint: "牆壁是「被漆」的 (p.p.)。" },
+                        { q: "He had his phone ______.", options: ["charge", "charged", "charging"], ans: "charged", hint: "手機是「被充電」的 (p.p.)。" },
+                        { q: "They had the grass ______.", options: ["cut", "cutting", "to cut"], ans: "cut", hint: "草是「被割」的 (p.p.)。" },
+                        // 36-40
+                        { q: "I had my cup ______.", options: ["fill", "filled", "filling"], ans: "filled", hint: "杯子是「被裝滿」的 (p.p.)。" },
+                        { q: "She had the song ______ by a famous singer.", options: ["sing", "sung", "singing"], ans: "sung", hint: "歌是「被唱」的 (p.p.)。" },
+                        { q: "We had the game ______.", options: ["start", "started", "starting"], ans: "started", hint: "遊戲是「被開始」的 (p.p.)。" },
+                        { q: "He had the message ______.", options: ["read", "reading", "reads"], ans: "read", hint: "訊息是「被閱讀」的 (p.p.)。" },
+                        { q: "Did you have the tickets ______?", options: ["book", "booked", "booking"], ans: "booked", hint: "票是「被預訂」的 (p.p.)。" },
+                        // 41-45
+                        { q: "I had the file ______.", options: ["save", "saved", "saving"], ans: "saved", hint: "檔案是「被儲存」的 (p.p.)。" },
+                        { q: "She had her hair ______ red.", options: ["dye", "dyed", "dying"], ans: "dyed", hint: "頭髮是「被染」的 (p.p.)。" },
+                        { q: "We had the question ______.", options: ["answer", "answered", "answering"], ans: "answered", hint: "問題是「被回答」的 (p.p.)。" },
+                        { q: "He had the box ______.", options: ["open", "opened", "opening"], ans: "opened", hint: "箱子是「被打開」的 (p.p.)。" },
+                        { q: "They had the road ______.", options: ["close", "closed", "closing"], ans: "closed", hint: "路是「被封閉」的 (p.p.)。" },
+                        // 46-50
+                        { q: "I had the apple ______.", options: ["eat", "eaten", "eating"], ans: "eaten", hint: "蘋果是「被吃」的 (p.p.)。" },
+                        { q: "She had the dress ______.", options: ["wash", "washed", "washing"], ans: "washed", hint: "洋裝是「被洗」的 (p.p.)。" },
+                        { q: "We had the lights ______ off.", options: ["turn", "turned", "turning"], ans: "turned", hint: "燈是「被關掉」的 (p.p.)。" },
+                        { q: "He had the meeting ______.", options: ["cancel", "canceled", "canceling"], ans: "canceled", hint: "會議是「被取消」的 (p.p.)。" },
+                        { q: "Did you have the mistake ______?", options: ["fix", "fixed", "fixing"], ans: "fixed", hint: "錯誤是「被修正」的 (p.p.)。" }
                     ],
                     scramble: [
-                        { id: "u7-gs-1", sentence: "I had my hair cut.", sentence_ch: "我去剪了頭髮 (讓人幫我剪)。" },
-                        { id: "u7-gs-2", sentence: "Mr. Brown had his car fixed.", sentence_ch: "布朗先生讓人修好了他的車。" }
+                        // 1-10
+                        { id: "u7-gs-1", sentence: "I had my hair cut.", sentence_ch: "我去剪了頭髮。" },
+                        { id: "u7-gs-2", sentence: "She had her car fixed.", sentence_ch: "她讓人修好了她的車。" },
+                        { id: "u7-gs-3", sentence: "We had the room painted.", sentence_ch: "我們讓人粉刷了房間。" },
+                        { id: "u7-gs-4", sentence: "He had his watch repaired.", sentence_ch: "他讓人修理了他的手錶。" },
+                        { id: "u7-gs-5", sentence: "Mom had the house cleaned.", sentence_ch: "媽媽讓人打掃了房子。" },
+                        { id: "u7-gs-6", sentence: "They had the pizza delivered.", sentence_ch: "他們叫了披薩外送 (讓人送來披薩)。" },
+                        { id: "u7-gs-7", sentence: "I had my eyes checked.", sentence_ch: "我去檢查了眼睛。" },
+                        { id: "u7-gs-8", sentence: "He had his bike stolen.", sentence_ch: "他的腳踏車被偷了 (遭竊)。" },
+                        { id: "u7-gs-9", sentence: "You should have it fixed.", sentence_ch: "你應該讓人把它修好。" },
+                        { id: "u7-gs-10", sentence: "She had her picture taken.", sentence_ch: "她讓人拍了她的照片。" },
+                        // 11-20
+                        { id: "u7-gs-11", sentence: "We had the photos taken.", sentence_ch: "我們讓人拍了這些照片。" },
+                        { id: "u7-gs-12", sentence: "He had a suit made.", sentence_ch: "他讓人訂做了一套西裝。" },
+                        { id: "u7-gs-13", sentence: "I had the letter sent.", sentence_ch: "我讓人把信寄出去了。" },
+                        { id: "u7-gs-14", sentence: "They had the wall painted.", sentence_ch: "他們讓人粉刷了牆壁。" },
+                        { id: "u7-gs-15", sentence: "She had her nails done.", sentence_ch: "她去做了指甲 (美甲)。" },
+                        { id: "u7-gs-16", sentence: "I had my homework checked.", sentence_ch: "我讓人檢查了我的作業。" },
+                        { id: "u7-gs-17", sentence: "He had his shoes cleaned.", sentence_ch: "他讓人把鞋子擦乾淨了。" },
+                        { id: "u7-gs-18", sentence: "We had the door locked.", sentence_ch: "我們讓人把門鎖上了 (或確保門被鎖上)。" },
+                        { id: "u7-gs-19", sentence: "Did you have it done?", sentence_ch: "你讓人把它做好了嗎？" },
+                        { id: "u7-gs-20", sentence: "She had the flowers planted.", sentence_ch: "她讓人種了這些花。" },
+                        // 21-30
+                        { id: "u7-gs-21", sentence: "I had the package sent.", sentence_ch: "我讓人寄送了包裹。" },
+                        { id: "u7-gs-22", sentence: "He had his computer fixed.", sentence_ch: "他讓人修好了電腦。" },
+                        { id: "u7-gs-23", sentence: "We had the food cooked.", sentence_ch: "我們讓人煮了食物。" },
+                        { id: "u7-gs-24", sentence: "They had the tree cut.", sentence_ch: "他們讓人砍了那棵樹。" },
+                        { id: "u7-gs-25", sentence: "She had the window broken.", sentence_ch: "她的窗戶被打破了 (遭遇)。" },
+                        { id: "u7-gs-26", sentence: "I will have it finished.", sentence_ch: "我會讓人把它完成。" },
+                        { id: "u7-gs-27", sentence: "He had his teeth checked.", sentence_ch: "他去檢查了牙齒。" },
+                        { id: "u7-gs-28", sentence: "We had the garbage taken.", sentence_ch: "我們讓人把垃圾拿走了。" },
+                        { id: "u7-gs-29", sentence: "She had the bag found.", sentence_ch: "她讓人找回了包包。" },
+                        { id: "u7-gs-30", sentence: "I had the water boiled.", sentence_ch: "我讓人把水煮開了。" },
+                        // 31-40 (New)
+                        { id: "u7-gs-31", sentence: "I had the floor mopped.", sentence_ch: "我讓人拖了地板。" },
+                        { id: "u7-gs-32", sentence: "She had the book signed.", sentence_ch: "她讓人簽了那本書。" },
+                        { id: "u7-gs-33", sentence: "We had the car washed.", sentence_ch: "我們讓人洗了車。" },
+                        { id: "u7-gs-34", sentence: "He had the test printed.", sentence_ch: "他讓人列印了考卷。" },
+                        { id: "u7-gs-35", sentence: "They had the lunch prepared.", sentence_ch: "他們讓人準備了午餐。" },
+                        { id: "u7-gs-36", sentence: "I had the key made.", sentence_ch: "我讓人打了一把鑰匙。" },
+                        { id: "u7-gs-37", sentence: "She had the dog fed.", sentence_ch: "她讓人餵了狗。" },
+                        { id: "u7-gs-38", sentence: "We had the problem solved.", sentence_ch: "我們讓人解決了問題。" },
+                        { id: "u7-gs-39", sentence: "He had the message read.", sentence_ch: "他讓人讀了訊息。" },
+                        { id: "u7-gs-40", sentence: "Did you have the tickets booked?", sentence_ch: "你讓人訂票了嗎？" },
+                        // 41-50
+                        { id: "u7-gs-41", sentence: "I had the file saved.", sentence_ch: "我讓人存了檔案。" },
+                        { id: "u7-gs-42", sentence: "She had her hair dyed.", sentence_ch: "她讓人染了頭髮。" },
+                        { id: "u7-gs-43", sentence: "We had the house built.", sentence_ch: "我們讓人蓋了這房子。" },
+                        { id: "u7-gs-44", sentence: "He had the box opened.", sentence_ch: "他讓人打開了箱子。" },
+                        { id: "u7-gs-45", sentence: "They had the road closed.", sentence_ch: "他們讓人封閉了道路。" },
+                        { id: "u7-gs-46", sentence: "I had the cake eaten.", sentence_ch: "我讓人把蛋糕吃掉了 (或蛋糕被吃掉了)。" },
+                        { id: "u7-gs-47", sentence: "She had the dress washed.", sentence_ch: "她讓人洗了洋裝。" },
+                        { id: "u7-gs-48", sentence: "We had the lights turned off.", sentence_ch: "我們讓人把燈關了。" },
+                        { id: "u7-gs-49", sentence: "He had the meeting canceled.", sentence_ch: "他讓人取消了會議。" },
+                        { id: "u7-gs-50", sentence: "Did you have the mistake fixed?", sentence_ch: "你讓人修正錯誤了嗎？" }
                     ]
                 }
             },
@@ -208,13 +318,123 @@
                         }
                     ],
                     quiz: [
-                        { q: "The sooner, the ______.", options: ["better", "good", "best"], ans: "better", hint: "句型為 The + 比較級 ..., the + 比較級 ..." },
-                        { q: "The more you practice, the ______ you get.", options: ["good", "better", "best"], ans: "better", hint: "前後都要用比較級。" },
-                        { q: "______ harder he works, the richer he becomes.", options: ["A", "The", "More"], ans: "The", hint: "句首需用 The。" }
+                        // 1-5
+                        { q: "The sooner, the ______.", options: ["better", "good", "best"], ans: "better", hint: "句型為 The + 比較級 ..., the + 比較級 ... (愈早愈好)" },
+                        { q: "The more, the ______.", options: ["merrier", "merry", "merriest"], ans: "merrier", hint: "愈多愈快樂 (merry 的比較級)。" },
+                        { q: "The ______ you practice, the better you get.", options: ["more", "many", "most"], ans: "more", hint: "你練習得愈多 (more)。" },
+                        { q: "The less said, the ______.", options: ["better", "good", "best"], ans: "better", hint: "說得愈少愈好。" },
+                        { q: "______ harder he works, the richer he becomes.", options: ["The", "A", "More"], ans: "The", hint: "句首需用 The。" },
+                        // 6-10
+                        { q: "The higher we go, the ______ it gets.", options: ["colder", "cold", "coldest"], ans: "colder", hint: "愈高就愈冷 (cold 的比較級)。" },
+                        { q: "The faster you run, the ______ you arrive.", options: ["sooner", "soon", "soonest"], ans: "sooner", hint: "跑得愈快就愈早到達。" },
+                        { q: "The hotter it is, the ______ I feel.", options: ["thirstier", "thirsty", "thirstiest"], ans: "thirstier", hint: "天氣愈熱我愈口渴。" },
+                        { q: "The older he gets, the ______ he becomes.", options: ["wiser", "wise", "wisest"], ans: "wiser", hint: "年紀愈大愈有智慧。" },
+                        { q: "The bigger, the ______.", options: ["better", "good", "best"], ans: "better", hint: "愈大愈好。" },
+                        // 11-15
+                        { q: "The more you eat, the ______ you get.", options: ["fatter", "fat", "fattest"], ans: "fatter", hint: "吃得愈多就愈胖。" },
+                        { q: "The harder you study, the ______ your grades will be.", options: ["better", "good", "best"], ans: "better", hint: "愈努力讀書成績愈好。" },
+                        { q: "The more you give, the ______ you receive.", options: ["more", "many", "most"], ans: "more", hint: "給予愈多，收穫愈多。" },
+                        { q: "The longer you wait, the ______ you will be.", options: ["bored", "more bored", "most bored"], ans: "more bored", hint: "等待愈久愈無聊 (bored 的比較級)。" },
+                        { q: "The earlier you start, the ______ you finish.", options: ["sooner", "soon", "soonest"], ans: "sooner", hint: "愈早開始愈早結束。" },
+                        // 16-20
+                        { q: "The ______ the question, the harder the answer.", options: ["shorter", "short", "shortest"], ans: "shorter", hint: "問題愈短，答案愈難。" },
+                        { q: "The more friends you have, the ______.", options: ["happier", "happy", "happiest"], ans: "happier", hint: "朋友愈多愈快樂。" },
+                        { q: "The darker the night, the ______ the stars.", options: ["brighter", "bright", "brightest"], ans: "brighter", hint: "夜愈黑星愈亮。" },
+                        { q: "The more expensive the car, the ______ it is.", options: ["faster", "fast", "fastest"], ans: "faster", hint: "車愈貴跑得愈快。" },
+                        { q: "The ______ you walk, the longer it takes.", options: ["slower", "slow", "slowest"], ans: "slower", hint: "走得愈慢花得時間愈長。" },
+                        // 21-25
+                        { q: "The more we are together, the ______ we will be.", options: ["happier", "happy", "happiest"], ans: "happier", hint: "我們愈常在一起就愈快樂。" },
+                        { q: "The ______ coffee you drink, the less you sleep.", options: ["more", "many", "much"], ans: "more", hint: "喝愈多咖啡睡得愈少。" },
+                        { q: "The easier the test, the ______ the score.", options: ["higher", "high", "highest"], ans: "higher", hint: "考試愈簡單分數愈高。" },
+                        { q: "The ______ you climb, the better the view.", options: ["higher", "high", "highest"], ans: "higher", hint: "爬得愈高風景愈好。" },
+                        { q: "The closer you look, the ______ you see.", options: ["less", "little", "least"], ans: "less", hint: "看得愈近，看到的愈少 (譬喻)。" },
+                        // 26-30
+                        { q: "The ______ money you save, the better.", options: ["more", "many", "much"], ans: "more", hint: "存愈多錢愈好。" },
+                        { q: "The busier he is, the ______ he feels.", options: ["happier", "happy", "happiest"], ans: "happier", hint: "他愈忙愈快樂。" },
+                        { q: "The ______ books you read, the smarter you become.", options: ["more", "many", "most"], ans: "more", hint: "讀愈多書愈聰明。" },
+                        { q: "The simpler, the ______.", options: ["better", "good", "best"], ans: "better", hint: "愈簡單愈好。" },
+                        { q: "The ______ you are, the more energy you have.", options: ["younger", "young", "youngest"], ans: "younger", hint: "愈年輕精力愈旺盛。" },
+                        // 31-35 (New)
+                        { q: "The safer, the ______.", options: ["better", "good", "best"], ans: "better", hint: "愈安全愈好。" },
+                        { q: "The ______ you speak, the better I hear.", options: ["louder", "loud", "loudest"], ans: "louder", hint: "說得愈大聲，我聽得愈清楚。" },
+                        { q: "The sweeter the candy, the ______ it is for teeth.", options: ["worse", "bad", "worst"], ans: "worse", hint: "糖果愈甜對牙齒愈不好。" },
+                        { q: "The ______ the line, the longer we wait.", options: ["longer", "long", "longest"], ans: "longer", hint: "隊伍愈長，我們等愈久。" },
+                        { q: "The colder the weather, the ______ clothes I wear.", options: ["more", "many", "most"], ans: "more", hint: "天氣愈冷，我穿愈多衣服。" },
+                        // 36-40
+                        { q: "The deeper the ocean, the ______ it is.", options: ["darker", "dark", "darkest"], ans: "darker", hint: "海洋愈深就愈暗。" },
+                        { q: "The ______ you drive, the safer you are.", options: ["slower", "slow", "slowest"], ans: "slower", hint: "開得愈慢愈安全。" },
+                        { q: "The more you smile, the ______ you look.", options: ["friendlier", "friendly", "friendliest"], ans: "friendlier", hint: "愈常微笑看起來愈友善。" },
+                        { q: "The larger the room, the ______ space we have.", options: ["more", "many", "most"], ans: "more", hint: "房間愈大，我們有愈多空間。" },
+                        { q: "The ______ the price, the better the quality.", options: ["higher", "high", "highest"], ans: "higher", hint: "價格愈高，品質愈好。" },
+                        // 41-45
+                        { q: "The more I sleep, the ______ I feel.", options: ["better", "good", "best"], ans: "better", hint: "睡得愈多感覺愈好。" },
+                        { q: "The ______ you work, the more you earn.", options: ["harder", "hard", "hardest"], ans: "harder", hint: "工作愈努力賺得愈多。" },
+                        { q: "The brighter the sun, the ______ it is.", options: ["hotter", "hot", "hottest"], ans: "hotter", hint: "太陽愈大天氣愈熱。" },
+                        { q: "The ______ the road, the harder to drive.", options: ["narrower", "narrow", "narrowest"], ans: "narrower", hint: "路愈窄愈難開。" },
+                        { q: "The more careful you are, the ______ mistakes you make.", options: ["fewer", "few", "fewest"], ans: "fewer", hint: "愈小心犯錯愈少。" },
+                        // 46-50
+                        { q: "The ______ the movie, the more I like it.", options: ["funnier", "funny", "funniest"], ans: "funnier", hint: "電影愈好笑我愈喜歡。" },
+                        { q: "The more you try, the ______ success you have.", options: ["more", "many", "most"], ans: "more", hint: "嘗試愈多成功機會愈多。" },
+                        { q: "The ______ the music, the better the dance.", options: ["louder", "loud", "loudest"], ans: "louder", hint: "音樂愈大聲舞跳得愈好。" },
+                        { q: "The cleaner the air, the ______ we are.", options: ["healthier", "healthy", "healthiest"], ans: "healthier", hint: "空氣愈乾淨我們愈健康。" },
+                        { q: "The ______ you learn, the smarter you get.", options: ["faster", "fast", "fastest"], ans: "faster", hint: "學得愈快變得愈聰明。" }
                     ],
                     scramble: [
+                        // 1-10
                         { id: "u8-gs-1", sentence: "The sooner, the better.", sentence_ch: "愈快愈好。" },
-                        { id: "u8-gs-2", sentence: "The more you read, the more knowledge you will get.", sentence_ch: "你讀得愈多，獲得的知識就愈多。" }
+                        { id: "u8-gs-2", sentence: "The more, the better.", sentence_ch: "愈多愈好。" },
+                        { id: "u8-gs-3", sentence: "The more, the merrier.", sentence_ch: "愈多愈快樂 (人愈多愈熱鬧)。" },
+                        { id: "u8-gs-4", sentence: "The harder you work, the luckier you get.", sentence_ch: "你愈努力，就愈幸運。" },
+                        { id: "u8-gs-5", sentence: "The more you learn, the more you know.", sentence_ch: "你學得愈多，知道得愈多。" },
+                        { id: "u8-gs-6", sentence: "The older he gets, the wiser he becomes.", sentence_ch: "他年紀愈大，變得愈有智慧。" },
+                        { id: "u8-gs-7", sentence: "The higher we go, the colder it is.", sentence_ch: "我們爬得愈高，天氣就愈冷。" },
+                        { id: "u8-gs-8", sentence: "The faster you run, the sooner you arrive.", sentence_ch: "你跑得愈快，就愈早到達。" },
+                        { id: "u8-gs-9", sentence: "The more you eat, the fatter you get.", sentence_ch: "你吃得愈多，就變得愈胖。" },
+                        { id: "u8-gs-10", sentence: "The less said, the better.", sentence_ch: "說得愈少愈好。" },
+                        // 11-20
+                        { id: "u8-gs-11", sentence: "The earlier you start, the sooner you finish.", sentence_ch: "你愈早開始，就愈早完成。" },
+                        { id: "u8-gs-12", sentence: "The darker the night, the brighter the stars.", sentence_ch: "夜愈黑，星星愈亮。" },
+                        { id: "u8-gs-13", sentence: "The more you give, the more you receive.", sentence_ch: "你給予愈多，得到的就愈多。" },
+                        { id: "u8-gs-14", sentence: "The hotter it is, the more water I drink.", sentence_ch: "天氣愈熱，我喝愈多水。" },
+                        { id: "u8-gs-15", sentence: "The bigger the dream, the harder the work.", sentence_ch: "夢想愈大，努力就要愈多。" },
+                        { id: "u8-gs-16", sentence: "The easier the game, the less fun it is.", sentence_ch: "遊戲愈簡單，就愈不好玩。" },
+                        { id: "u8-gs-17", sentence: "The more friends you have, the happier you are.", sentence_ch: "朋友愈多，你就愈快樂。" },
+                        { id: "u8-gs-18", sentence: "The longer you wait, the more tired you become.", sentence_ch: "你等得愈久，就變得愈累。" },
+                        { id: "u8-gs-19", sentence: "The more you practice, the better you play.", sentence_ch: "你練習愈多，表現得愈好。" },
+                        { id: "u8-gs-20", sentence: "The closer you look, the less you see.", sentence_ch: "你靠得愈近看，看到的愈少。" },
+                        // 21-30
+                        { id: "u8-gs-21", sentence: "The colder it gets, the more clothes we wear.", sentence_ch: "天氣愈冷，我們穿愈多衣服。" },
+                        { id: "u8-gs-22", sentence: "The cheaper the ticket, the worse the seat.", sentence_ch: "票愈便宜，座位愈差。" },
+                        { id: "u8-gs-23", sentence: "The more money he has, the more he wants.", sentence_ch: "他錢愈多，想要的就愈多。" },
+                        { id: "u8-gs-24", sentence: "The slower you walk, the later you will be.", sentence_ch: "你走得愈慢，就會愈晚到。" },
+                        { id: "u8-gs-25", sentence: "The more you smile, the younger you look.", sentence_ch: "你愈常笑，看起來就愈年輕。" },
+                        { id: "u8-gs-26", sentence: "The deeper the water, the cooler it is.", sentence_ch: "水愈深，就愈涼。" },
+                        { id: "u8-gs-27", sentence: "The simpler the plan, the better it works.", sentence_ch: "計畫愈簡單，效果愈好。" },
+                        { id: "u8-gs-28", sentence: "The more books you read, the smarter you get.", sentence_ch: "你讀愈多書，就變得愈聰明。" },
+                        { id: "u8-gs-29", sentence: "The busier I am, the happier I feel.", sentence_ch: "我愈忙，感覺愈快樂。" },
+                        { id: "u8-gs-30", sentence: "The sooner we leave, the earlier we return.", sentence_ch: "我們愈早出發，就愈早回來。" },
+                        // 31-40 (New)
+                        { id: "u8-gs-31", sentence: "The safer, the better.", sentence_ch: "愈安全愈好。" },
+                        { id: "u8-gs-32", sentence: "The louder you speak, the better I hear.", sentence_ch: "你說得愈大聲，我聽得愈清楚。" },
+                        { id: "u8-gs-33", sentence: "The sweeter the candy, the worse it is.", sentence_ch: "糖果愈甜，對牙齒愈不好。" },
+                        { id: "u8-gs-34", sentence: "The longer the line, the longer we wait.", sentence_ch: "隊伍愈長，我們等愈久。" },
+                        { id: "u8-gs-35", sentence: "The deeper the ocean, the darker it is.", sentence_ch: "海洋愈深，就愈暗。" },
+                        { id: "u8-gs-36", sentence: "The slower you drive, the safer you are.", sentence_ch: "你開得愈慢，就愈安全。" },
+                        { id: "u8-gs-37", sentence: "The larger the room, the more space we have.", sentence_ch: "房間愈大，我們有愈多空間。" },
+                        { id: "u8-gs-38", sentence: "The higher the price, the better the quality.", sentence_ch: "價格愈高，品質愈好。" },
+                        { id: "u8-gs-39", sentence: "The more I sleep, the better I feel.", sentence_ch: "我睡得愈多，感覺愈好。" },
+                        { id: "u8-gs-40", sentence: "The harder you work, the more you earn.", sentence_ch: "你工作愈努力，賺得愈多。" },
+                        // 41-50
+                        { id: "u8-gs-41", sentence: "The brighter the sun, the hotter it is.", sentence_ch: "太陽愈大，天氣愈熱。" },
+                        { id: "u8-gs-42", sentence: "The narrower the road, the harder to drive.", sentence_ch: "路愈窄，愈難開。" },
+                        { id: "u8-gs-43", sentence: "The more careful you are, the fewer mistakes you make.", sentence_ch: "你愈小心，犯錯愈少。" },
+                        { id: "u8-gs-44", sentence: "The funnier the movie, the more I like it.", sentence_ch: "電影愈好笑，我愈喜歡。" },
+                        { id: "u8-gs-45", sentence: "The more you try, the more success you have.", sentence_ch: "你嘗試愈多，成功機會愈多。" },
+                        { id: "u8-gs-46", sentence: "The louder the music, the better the dance.", sentence_ch: "音樂愈大聲，舞跳得愈好。" },
+                        { id: "u8-gs-47", sentence: "The cleaner the air, the healthier we are.", sentence_ch: "空氣愈乾淨，我們愈健康。" },
+                        { id: "u8-gs-48", sentence: "The faster you learn, the smarter you get.", sentence_ch: "你學得愈快，變得愈聰明。" },
+                        { id: "u8-gs-49", sentence: "The quieter the room, the better I study.", sentence_ch: "房間愈安靜，我讀書讀得愈好。" },
+                        { id: "u8-gs-50", sentence: "The more you walk, the stronger you become.", sentence_ch: "你走愈多路，變得愈強壯。" }
                     ]
                 }
             },
@@ -258,13 +478,123 @@
                         }
                     ],
                     quiz: [
+                        // 1-5
                         { q: "He walked away, ______ a song.", options: ["singing", "sang", "sung"], ans: "singing", hint: "主動動作 (唱著歌)，使用 V-ing。" },
                         { q: "______ in English, the book is easy to read.", options: ["Write", "Writing", "Written"], ans: "Written", hint: "書是「被寫」的，使用 p.p.。" },
-                        { q: "She sat there, ______ by her friends.", options: ["surround", "surrounding", "surrounded"], ans: "surrounded", hint: "被朋友包圍，使用 p.p.。" }
+                        { q: "She sat there, ______ by her friends.", options: ["surround", "surrounding", "surrounded"], ans: "surrounded", hint: "被朋友包圍，使用 p.p.。" },
+                        { q: "______ down the street, I met an old friend.", options: ["Walking", "Walked", "Walks"], ans: "Walking", hint: "主動動作 (走在街上)，使用 V-ing。" },
+                        { q: "______ the news, she started to cry.", options: ["Hearing", "Heard", "Hears"], ans: "Hearing", hint: "主動動作 (聽到消息)，使用 V-ing。" },
+                        // 6-10
+                        { q: "______ in Taiwan, this car is very good.", options: ["Making", "Made", "Make"], ans: "Made", hint: "車子是「被製造」的，使用 p.p.。" },
+                        { q: "______ by the noise, the baby woke up.", options: ["Scaring", "Scared", "Scare"], ans: "Scared", hint: "寶寶是「被嚇醒」的，使用 p.p.。" },
+                        { q: "The letter, ______ by Tom, is very long.", options: ["writing", "write", "written"], ans: "written", hint: "信是「被寫」的，使用 p.p.。" },
+                        { q: "______ by mountains, the lake is beautiful.", options: ["Surrounded", "Surrounding", "Surround"], ans: "Surrounded", hint: "湖泊是「被包圍」的，使用 p.p.。" },
+                        { q: "______ in 1990, the building is old.", options: ["Building", "Built", "Build"], ans: "Built", hint: "建築物是「被建造」的，使用 p.p.。" },
+                        // 11-15
+                        { q: "______ the dog, the cat ran away.", options: ["Seeing", "Saw", "Seen"], ans: "Seeing", hint: "貓「看見」狗 (主動)，使用 V-ing。" },
+                        { q: "______ hard, he passed the test.", options: ["Studying", "Studied", "Study"], ans: "Studying", hint: "他「努力讀書」 (主動)，使用 V-ing。" },
+                        { q: "______ television, I fell asleep.", options: ["Watching", "Watched", "Watch"], ans: "Watching", hint: "我「看電視」 (主動)，使用 V-ing。" },
+                        { q: "______ his hand, he asked a question.", options: ["Raising", "Raised", "Raise"], ans: "Raising", hint: "他「舉手」 (主動)，使用 V-ing。" },
+                        { q: "______ the door, she walked in.", options: ["Opening", "Opened", "Open"], ans: "Opening", hint: "她「開門」 (主動)，使用 V-ing。" },
+                        // 16-20
+                        { q: "______ by a snake, he went to the hospital.", options: ["Biting", "Bitten", "Bit"], ans: "Bitten", hint: "他「被蛇咬」 (被動)，使用 p.p.。" },
+                        { q: "______ a heavy bag, she walked slowly.", options: ["Carrying", "Carried", "Carry"], ans: "Carrying", hint: "她「提著」重物 (主動)，使用 V-ing。" },
+                        { q: "______ in the kitchen, Mom is cooking.", options: ["Standing", "Stood", "Stand"], ans: "Standing", hint: "媽媽「站」在廚房 (主動)，使用 V-ing。" },
+                        { q: "The boy, ______ a red cap, is my brother.", options: ["wearing", "worn", "wear"], ans: "wearing", hint: "男孩「戴著」帽子 (主動)，使用 V-ing。" },
+                        { q: "______ carefully, the glass won't break.", options: ["Use", "Using", "Used"], ans: "Used", hint: "玻璃杯如果「被小心使用」 (被動 - 注意主詞是玻璃杯)，使用 p.p.。" },
+                        // 21-25
+                        { q: "______ hungry, he ate two apples.", options: ["Feeling", "Felt", "Feel"], ans: "Feeling", hint: "他「覺得」餓 (主動)，使用 V-ing。" },
+                        { q: "______ by the teacher, the student was happy.", options: ["Praising", "Praised", "Praise"], ans: "Praised", hint: "學生「被稱讚」 (被動)，使用 p.p.。" },
+                        { q: "______ for the bus, I read a book.", options: ["Waiting", "Waited", "Wait"], ans: "Waiting", hint: "我「等」公車 (主動)，使用 V-ing。" },
+                        { q: "______ by everyone, the song is famous.", options: ["Loving", "Loved", "Love"], ans: "Loved", hint: "歌「被喜愛」 (被動)，使用 p.p.。" },
+                        { q: "______ money, he couldn't buy the ticket.", options: ["Lacking", "Lacked", "Lack"], ans: "Lacking", hint: "他「缺乏」錢 (主動)，使用 V-ing。" },
+                        // 26-30
+                        { q: "The car, ______ near the park, is mine.", options: ["parking", "parked", "park"], ans: "parked", hint: "車子「被停」在公園 (被動)，使用 p.p.。" },
+                        { q: "______ the answer, she raised her hand.", options: ["Knowing", "Known", "Know"], ans: "Knowing", hint: "她「知道」答案 (主動)，使用 V-ing。" },
+                        { q: "______ in the box, the toy was safe.", options: ["Keeping", "Kept", "Keep"], ans: "Kept", hint: "玩具「被保存」在盒子裡 (被動)，使用 p.p.。" },
+                        { q: "______ loudly, the man was angry.", options: ["Shouting", "Shouted", "Shout"], ans: "Shouting", hint: "男人「大叫」 (主動)，使用 V-ing。" },
+                        { q: "______ by the rain, we got wet.", options: ["Catching", "Caught", "Catch"], ans: "Caught", hint: "我們「被雨淋」 (被動 caught by...)。" },
+                        // 31-35 (New)
+                        { q: "______ on the sofa, she fell asleep.", options: ["Sitting", "Sat", "Sit"], ans: "Sitting", hint: "她「坐」在沙發上 (主動)，使用 V-ing。" },
+                        { q: "______ by the story, the kids laughed.", options: ["Amusing", "Amused", "Amuse"], ans: "Amused", hint: "孩子「被故事逗樂」 (被動)，使用 p.p.。" },
+                        { q: "______ the window, he looked out.", options: ["Opening", "Opened", "Open"], ans: "Opening", hint: "他「打開」窗戶 (主動)，使用 V-ing。" },
+                        { q: "______ in 2020, the shop is new.", options: ["Opening", "Opened", "Open"], ans: "Opened", hint: "店是「被開」的 (被動)，使用 p.p.。" },
+                        { q: "______ coffee, I read the news.", options: ["Drinking", "Drank", "Drink"], ans: "Drinking", hint: "我「喝」咖啡 (主動)，使用 V-ing。" },
+                        // 36-40
+                        { q: "The picture, ______ on the wall, is nice.", options: ["hanging", "hung", "hang"], ans: "hanging", hint: "畫「掛」在牆上 (主動狀態)，使用 V-ing。" },
+                        { q: "______ by the cold, he wore a coat.", options: ["Bothering", "Bothered", "Bother"], ans: "Bothered", hint: "他「被寒冷困擾」 (被動)，使用 p.p.。" },
+                        { q: "______ a bike, he went to school.", options: ["Riding", "Rode", "Ride"], ans: "Riding", hint: "他「騎」腳踏車 (主動)，使用 V-ing。" },
+                        { q: "______ in the river, the fish are fast.", options: ["Swimming", "Swum", "Swim"], ans: "Swimming", hint: "魚「游」在河裡 (主動)，使用 V-ing。" },
+                        { q: "The cake, ______ by Mom, is tasty.", options: ["baking", "baked", "bake"], ans: "baked", hint: "蛋糕是「被烤」的 (被動)，使用 p.p.。" },
+                        // 41-45
+                        { q: "______ to music, she danced.", options: ["Listening", "Listened", "Listen"], ans: "Listening", hint: "她「聽」音樂 (主動)，使用 V-ing。" },
+                        { q: "______ by the sun, the ice melted.", options: ["Heating", "Heated", "Heat"], ans: "Heated", hint: "冰「被加熱」 (被動)，使用 p.p.。" },
+                        { q: "______ a game, they shouted.", options: ["Playing", "Played", "Play"], ans: "Playing", hint: "他們「玩」遊戲 (主動)，使用 V-ing。" },
+                        { q: "______ in the room, the cat slept.", options: ["Staying", "Stayed", "Stay"], ans: "Staying", hint: "貓「待」在房間 (主動)，使用 V-ing。" },
+                        { q: "The homework, ______ yesterday, was hard.", options: ["doing", "done", "do"], ans: "done", hint: "作業是「被做」的 (被動)，使用 p.p.。" },
+                        // 46-50
+                        { q: "______ at the joke, he was happy.", options: ["Laughing", "Laughed", "Laugh"], ans: "Laughing", hint: "他「笑」 (主動)，使用 V-ing。" },
+                        { q: "______ by the map, we found the way.", options: ["Guiding", "Guided", "Guide"], ans: "Guided", hint: "我們「被地圖指引」 (被動)，使用 p.p.。" },
+                        { q: "______ early, she caught the train.", options: ["Leaving", "Left", "Leave"], ans: "Leaving", hint: "她「離開」 (主動)，使用 V-ing。" },
+                        { q: "______ of the dark, he turned on the light.", options: ["Scaring", "Scared", "Scare"], ans: "Scared", hint: "他「感到害怕」 (被動意義 - be scared of)，使用 p.p.。" },
+                        { q: "The phone, ______ in Japan, is cheap.", options: ["making", "made", "make"], ans: "made", hint: "手機是「被製造」的 (被動)，使用 p.p.。" }
                     ],
                     scramble: [
+                        // 1-10
                         { id: "u9-gs-1", sentence: "He walked away, singing a song.", sentence_ch: "他走開了，唱著歌。" },
-                        { id: "u9-gs-2", sentence: "The singer stood there, surrounded by fans.", sentence_ch: "歌手站在那，被粉絲包圍。" }
+                        { id: "u9-gs-2", sentence: "The singer stood there, surrounded by fans.", sentence_ch: "歌手站在那，被粉絲包圍。" },
+                        { id: "u9-gs-3", sentence: "Walking down the street, I met John.", sentence_ch: "走在街上時，我遇見了 John。" },
+                        { id: "u9-gs-4", sentence: "Written in English, the book is easy.", sentence_ch: "因為是用英文寫的，這本書很簡單。" },
+                        { id: "u9-gs-5", sentence: "Hearing the news, she cried.", sentence_ch: "聽到這消息，她哭了。" },
+                        { id: "u9-gs-6", sentence: "Made in Taiwan, the computer is good.", sentence_ch: "台灣製造的電腦很好。" },
+                        { id: "u9-gs-7", sentence: "Seeing the police, the thief ran away.", sentence_ch: "看到警察，小偷跑走了。" },
+                        { id: "u9-gs-8", sentence: "Surrounded by water, the island is beautiful.", sentence_ch: "被水環繞，這座島嶼很美。" },
+                        { id: "u9-gs-9", sentence: "Using a knife, he cut the apple.", sentence_ch: "用一把刀，他切了蘋果。" },
+                        { id: "u9-gs-10", sentence: "Bitten by a dog, he went to the hospital.", sentence_ch: "被狗咬了，他去了醫院。" },
+                        // 11-20
+                        { id: "u9-gs-11", sentence: "Standing at the door, she waited for him.", sentence_ch: "站在門口，她等著他。" },
+                        { id: "u9-gs-12", sentence: "Loved by everyone, she is happy.", sentence_ch: "被大家喜愛，她很快樂。" },
+                        { id: "u9-gs-13", sentence: "Feeling hungry, I ate a banana.", sentence_ch: "覺得餓了，我吃了一根香蕉。" },
+                        { id: "u9-gs-14", sentence: "Watched by his parents, the boy played well.", sentence_ch: "被父母看著，男孩表現得很好。" },
+                        { id: "u9-gs-15", sentence: "Opening the window, I saw a bird.", sentence_ch: "打開窗戶，我看見一隻鳥。" },
+                        { id: "u9-gs-16", sentence: "Lost in the city, he called his mom.", sentence_ch: "在城市裡迷路了，他打電話給媽媽。" },
+                        { id: "u9-gs-17", sentence: "Cooking dinner, Mom cut her finger.", sentence_ch: "煮晚餐時，媽媽切到了手指。" },
+                        { id: "u9-gs-18", sentence: "Cleaned every day, the room is bright.", sentence_ch: "每天被打掃，房間很明亮。" },
+                        { id: "u9-gs-19", sentence: "Playing basketball, he hurt his leg.", sentence_ch: "打籃球時，他弄傷了腿。" },
+                        { id: "u9-gs-20", sentence: "Born in 2000, she is young.", sentence_ch: "生於 2000 年，她很年輕。" },
+                        // 21-30
+                        { id: "u9-gs-21", sentence: "Driving a car, he listens to music.", sentence_ch: "開車時，他聽著音樂。" },
+                        { id: "u9-gs-22", sentence: "Covered with snow, the mountain is white.", sentence_ch: "被雪覆蓋，山是白色的。" },
+                        { id: "u9-gs-23", sentence: "Running fast, he caught the bus.", sentence_ch: "跑得很快，他趕上了公車。" },
+                        { id: "u9-gs-24", sentence: "Used for years, the bag is old.", sentence_ch: "被使用了多年，這包包舊了。" },
+                        { id: "u9-gs-25", sentence: "Smiling happily, she opened the gift.", sentence_ch: "開心地笑著，她打開了禮物。" },
+                        { id: "u9-gs-26", sentence: "Painted yellow, the house looks warm.", sentence_ch: "被漆成黃色，房子看起來很溫暖。" },
+                        { id: "u9-gs-27", sentence: "Working late, he felt tired.", sentence_ch: "工作到很晚，他覺得很累。" },
+                        { id: "u9-gs-28", sentence: "Known as a hero, he is brave.", sentence_ch: "被稱為英雄，他很勇敢。" },
+                        { id: "u9-gs-29", sentence: "Reading a book, I forgot the time.", sentence_ch: "讀著書，我忘了時間。" },
+                        { id: "u9-gs-30", sentence: "Broken by the ball, the window needs fixing.", sentence_ch: "被球打破了，窗戶需要修理。" },
+                        // 31-40 (New)
+                        { id: "u9-gs-31", sentence: "Sitting on the sofa, she fell asleep.", sentence_ch: "坐在沙發上，她睡著了。" },
+                        { id: "u9-gs-32", sentence: "Amused by the story, the kids laughed.", sentence_ch: "被故事逗樂了，孩子們笑了。" },
+                        { id: "u9-gs-33", sentence: "Opening the box, he found a toy.", sentence_ch: "打開盒子，他發現了一個玩具。" },
+                        { id: "u9-gs-34", sentence: "Opened in 2020, the shop is new.", sentence_ch: "2020 年開幕，這家店很新。" },
+                        { id: "u9-gs-35", sentence: "Drinking coffee, I read the news.", sentence_ch: "喝著咖啡，我讀了新聞。" },
+                        { id: "u9-gs-36", sentence: "Hanging on the wall, the picture is nice.", sentence_ch: "掛在牆上，那幅畫很好看。" },
+                        { id: "u9-gs-37", sentence: "Bothered by the cold, he wore a coat.", sentence_ch: "受不了寒冷，他穿了大衣。" },
+                        { id: "u9-gs-38", sentence: "Riding a bike, he went to school.", sentence_ch: "騎著腳踏車，他去上學。" },
+                        { id: "u9-gs-39", sentence: "Swimming in the river, the fish are fast.", sentence_ch: "在河裡游，魚很快。" },
+                        { id: "u9-gs-40", sentence: "Baked by Mom, the cake is tasty.", sentence_ch: "媽媽烤的，蛋糕很好吃。" },
+                        // 41-50
+                        { id: "u9-gs-41", sentence: "Listening to music, she danced.", sentence_ch: "聽著音樂，她跳舞。" },
+                        { id: "u9-gs-42", sentence: "Heated by the sun, the ice melted.", sentence_ch: "被太陽曬熱，冰融化了。" },
+                        { id: "u9-gs-43", sentence: "Playing a game, they shouted.", sentence_ch: "玩著遊戲，他們大叫。" },
+                        { id: "u9-gs-44", sentence: "Staying in the room, the cat slept.", sentence_ch: "待在房間裡，貓睡覺。" },
+                        { id: "u9-gs-45", sentence: "Done yesterday, the homework was hard.", sentence_ch: "昨天做的，那作業很難。" },
+                        { id: "u9-gs-46", sentence: "Laughing at the joke, he was happy.", sentence_ch: "嘲笑那個笑話，他很快樂。" },
+                        { id: "u9-gs-47", sentence: "Guided by the map, we found the way.", sentence_ch: "被地圖指引，我們找到了路。" },
+                        { id: "u9-gs-48", sentence: "Leaving early, she caught the train.", sentence_ch: "早早離開，她趕上了火車。" },
+                        { id: "u9-gs-49", sentence: "Scared of the dark, he turned on the light.", sentence_ch: "害怕黑暗，他打開了燈。" },
+                        { id: "u9-gs-50", sentence: "Made in Japan, the phone is cheap.", sentence_ch: "日本製造，這手機很便宜。" }
                     ]
                 }
             }
